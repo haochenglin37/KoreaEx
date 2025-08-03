@@ -1,0 +1,11 @@
+exchange: upbit
+strategy:
+  take_profit: 15
+  pullback_threshold: 0.15
+  add_position_interval: 0.15
+  max_add_times: 4
+  high_lookback_hours: 8
+  min_high_age_hours: 3
+  listing_delay_hours: 2
+  initial_position: 10
+  position_multiplier: 2
